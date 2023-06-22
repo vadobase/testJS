@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sea Pictures</title>
+  </head>
+  <body>
+    <h1>Sea Pictures</h1>
+    <img src="https://www.example.com/sea1.jpg" alt="Sea Picture 1">
+    <img src="https://www.example.com/sea2.jpg" alt="Sea Picture 2">
+    <img src="https://www.example.com/sea3.jpg" alt="Sea Picture 3">
+  </body>
+</html>
