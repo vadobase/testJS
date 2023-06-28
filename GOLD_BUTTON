@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gold Button Website</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    
+    .gold-button {
+      background-color: gold;
+      color: white;
+      padding: 20px 40px;
+      font-size: 24px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <button class="gold-button">Click Me!</button>
+
+  <script>
+    const button = document.querySelector('.gold-button');
+    button.addEventListener('click', () => {
+      alert('You clicked the gold button!');
+    });
+  </script>
+</body>
+</html>
